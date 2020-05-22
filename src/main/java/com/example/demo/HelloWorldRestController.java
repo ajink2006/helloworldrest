@@ -9,6 +9,12 @@ public class HelloWorldRestController {
 	@GetMapping("/hi")
 	public String sayHello()
 	{
+		return "Hi AJit";
+	}
+	
+	@GetMapping("/hello")
+	public String sayHello()
+	{
 		return "Hello AJit";
 	}
 
